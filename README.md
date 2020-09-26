@@ -38,3 +38,4 @@
 ## Tools/Repositories
 
 - [rdbtools](https://github.com/sripathikrishnan/redis-rdb-tools) - Memory profiling for redis data and a parser for dump.rdb files
+- [twemproxy](https://github.com/twitter/twemproxy) - A fast, light-weight proxy for memcached and redis, helps to reduce number of connections to the caching servers on the backend. This, together with protocol pipelining and sharding enables you to horizontally scale your distributed caching architecture.
