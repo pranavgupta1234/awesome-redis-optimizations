@@ -7,6 +7,7 @@
 - [Guides/Tools/Case Studies](#guidestoolscase-studies)
   - [Memory Optimization with Hashes](#memory-optimization-with-hashes)
   - [Pipelining in Redis](#pipelining-in-redis)
+  - [Reduce Reads Techniques](#reduce-reads-techniques)
   - [Low Memory, Fast Computation, the Bitsets](#low-memory-fast-computation-the-bitsets)
   - [Lua Scripting, Kill Latency with Server Side Computation](#lua-scripting-kill-latency-with-server-side-computation)
 - [Tools/Repositories](#toolsrepositories)
@@ -23,6 +24,9 @@
 
 - [Concept of Pipelining](https://redis.io/topics/pipelining) - Get the most out of your single redis call
 
+
+## Reduce Reads Techniques
+- [Avoids duplicate reads in case of Cache Stampede (by DoorDash)](https://medium.com/@DoorDash/avoiding-cache-stampede-at-doordash-55bbf596d94b) - Reduce load on redis by maintaing application level cache and how to avoid duplicate reads in case of Cache Stampede.
 
 ## Low Memory, Fast Computation, the Bitsets
 
