@@ -26,7 +26,7 @@
 
 
 ## Reduce Reads Techniques
-- [Avoids duplicate reads in case of Cache Stampede (by DoorDash)](https://medium.com/@DoorDash/avoiding-cache-stampede-at-doordash-55bbf596d94b) - Reduce load on redis by maintaing application level cache and how to avoid duplicate reads in case of Cache Stampede.
+- [Avoids duplicate reads in case of Cache Stampede (by DoorDash)](https://doordash.engineering/2018/08/03/avoiding-cache-stampede-at-doordash/) - Reduce load on redis by maintaing application level cache and how to avoid duplicate reads in case of Cache Stampede.
 
 ## Low Memory, Fast Computation, the Bitsets
 
